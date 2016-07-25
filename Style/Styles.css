@@ -1,0 +1,215 @@
+﻿* {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+list-style-type: none;
+border: 0;
+}
+ul {
+zoom: 1;
+}
+li {
+display: list-item;
+text-align: center;
+}
+div {
+display: block;
+}
+dl {
+display:block;
+margin-top:1em;
+margin-bottom:1em;
+margin-left:0;
+margin-right:0;
+}
+dt {
+display:block;
+}
+dd {
+display:block;
+margin-left:40px;
+}
+#hd {
+font-size: 12px;
+color: #646464;
+min-width: 1200px;
+background-color: #fff;
+}
+    #hd .tools {
+    width: 100%;
+    background-color:#f9f9f9;
+    border-bottom: 1px solid #f2f2f2;
+    height: 34px;
+    line-height: 34px;
+    position: relative;
+    z-index: 10010;
+    }
+.head_operate {
+width: 1200px;
+margin: auto;
+background-color: #f9f9f9;
+height: 34px;
+}
+.head_operate_nav {
+float:right;
+padding-left:11px;
+padding-top:2px;
+}
+    .head_operate_nav li {
+    float: left;
+    height: 22px;
+    padding-top: 4px;
+    line-height: 21px;
+    position: relative;
+    z-index: 100;
+    width: 84px;
+    }
+
+.head_welcome {
+padding: 5px 0 0 10px;
+height: 24px;
+line-height: 24px;
+position: relative;
+float: right;
+z-index: 50;
+}
+#hd .logo_line_out {
+position: relative;
+z-index: 10002;
+}
+#hd .logo_line {
+height: 100px;
+width: 1200px;
+margin: auto;
+position: relative;
+}
+    #hd .logo_line .logo {
+    overflow:hidden;
+    width:362px;
+    vertical-align:middle;
+    position:absolute;
+    left:0;
+    top:0;
+    height: 77px;
+    }
+    #hd .logo_line .search {
+    position:absolute;
+    margin-top:20px;
+    height:48px;
+    z-index:9999;
+    left:362px;
+    top:0;
+    }
+#searchBox {
+width:398px;
+height:18px;
+border:2px solid #ff2832;
+border-right:none;
+padding:9px 0 9px 10px;
+position:absolute;
+left:0;
+top:0;
+z-index:2;
+color:#323232;
+font:12px/18px "Hiragino Sans GB", SimSun, Arial;
+outline:0;
+background:none;
+}
+#searchButton {
+width:80px;
+height:40px;
+border:none;
+cursor:pointer;
+position:absolute;
+left:410px;
+top:0;
+background-color:#ff2832;
+color:white;
+font-size:24px;
+}
+#bd {
+width:1200px;
+height:auto;
+font-family:Arial;
+margin:0 auto;
+}
+    #bd .content {
+    zoom:1;
+    margin-bottom:20px;
+    clear:both;
+    }
+        #bd .content .content_left {
+        margin-right:10px;
+        float:left;
+        z-index:6;
+        position:relative;
+        }
+.sidemenu {
+width:190px;
+}
+    .sidemenu .menu_head {
+    height:35px;
+    width:190px;
+    text-align:center;
+    font-size:18px;
+    background:#487a6f;
+    border-radius:4px 4px 0 0;
+    line-height:34px;
+    color:#fff;
+    font-family:"Microsoft YaHei";
+    clear:both;
+    zoom:1;
+    }
+    .sidemenu .menu_body {
+    width:190px;
+    border-top:2px dotted #487a6f;
+    border-bottom:1px solid #487a6f;
+    position:relative;
+    height:878px;
+    clear:both;
+    zoom:1;
+    }
+        .sidemenu .menu_body .level_one {
+        width:188px;
+        border:1px solid #487a6f;
+        border-width: 1px;
+        zoom:1;
+        }
+            .sidemenu .menu_body .level_one dl.primary_dl {
+            width:170px;
+            border-bottom:1px dotted #849555;
+            margin-left:9px;
+            position:relative;
+            overflow:hidden;
+            padding-top:3px;
+            padding-bottom:2px;
+            clear:both;
+            zoom:1;
+            }
+                .sidemenu .menu_body .level_one dl.primary_dl dt {
+                padding-bottom:3px;
+                font-family:"Microsoft YaHei";
+                clear:both;
+                zoom:1;
+                }
+                .sidemenu .menu_body .level_one dl.primary_dl dd {
+                zoom:1;
+                width:178px;
+                padding-bottom:3px;
+                clear:both;
+                }
+#bd .content .content_right {
+float:left;
+zoom:1;
+width:1000px;
+height:878px;
+}
+#footer {
+clear:both;
+font-family:'Microsoft YaHei';
+font-size:14px;
+background-color:#f9f9f9;
+color:#646464;
+height:34px;
+text-align:center;
+}
